@@ -1,4 +1,3 @@
-
 import React from 'react';
 import type { Trade } from '../types';
 import { MarketSide } from '../types';
@@ -9,7 +8,7 @@ interface TradeFeedProps {
 
 const TradeFeed: React.FC<TradeFeedProps> = ({ trades }) => {
   return (
-    <div className="bg-gray-800 p-4 rounded-lg shadow-lg h-full flex flex-col">
+    <div className="bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col" style={{ height: '350px' }}>
       <h2 className="text-xl font-bold mb-3 text-center text-gray-300 border-b border-gray-600 pb-2">Trade Feed</h2>
       <div className="overflow-y-auto flex-grow">
         <table className="w-full text-sm">
