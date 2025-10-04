@@ -1,0 +1,5 @@
+{
+  "name": "Market Maker Sim",
+  "description": "A real-time market making simulation game for E-Mini S&P 100 Futures. Learn to think like a trader by quoting bids and asks, managing your position, and competing against other market makers and takers in a dynamic electronic trading environment.",
+  "requestFramePermissions": []
+}
