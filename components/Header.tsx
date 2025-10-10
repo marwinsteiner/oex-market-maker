@@ -8,7 +8,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ isRunning }) => {
   return (
     <div className="bg-gray-800 p-4 rounded-lg shadow-lg flex justify-between items-center">
-      <h1 className="text-2xl font-bold text-emerald-400">E-Mini S&P 100 Market Maker Sim</h1>
+      <h1 className="text-2xl font-bold text-emerald-400">S&P 100 Market Making Simulator</h1>
       <div className="flex items-center space-x-3">
         <span className="text-lg font-semibold">Status:</span>
         <span className={`px-3 py-1 rounded-full text-sm font-bold ${
